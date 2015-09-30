@@ -22,5 +22,7 @@ class CurlLoader implements RemoteFileLoaderInterface
         if (!function_exists("curl_init")) {
             return false;
         }
+
+        return true;
     }
 }
