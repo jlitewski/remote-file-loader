@@ -1,0 +1,30 @@
+{
+  "name": "partkeepr/remote-file-loader",
+  "type": "symfony-bundle",
+  "description": "Abstraction for loading files remotely",
+  "keywords": ["file_get_contents", "curl"],
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Timo A. Hummel",
+      "email": "felicitus@felicitus.org",
+      "homepage": "http://www.felicitus.org",
+      "role": "Project Lead, Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "symfony/framework-bundle": "~2.6|~3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.6"
+  },
+  "autoload": {
+    "psr-4": { "PartKeepr\\RemoteFileLoader\\": "" }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
