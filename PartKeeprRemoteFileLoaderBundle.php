@@ -3,7 +3,7 @@ namespace PartKeepr\RemoteFileLoader;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class RemoteFileLoaderBundle extends Bundle
+class PartKeeprRemoteFileLoaderBundle extends Bundle
 {
 
 }
