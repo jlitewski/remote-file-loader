@@ -4,8 +4,9 @@ namespace PartKeepr\RemoteFileLoader\DependencyInjection;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader;
 use Symfony\Component\Config\FileLocator;
+use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
-class PartKeeprRemoteFileLoaderExtension
+class PartKeeprRemoteFileLoaderExtension extends Extension
 {
 /**
      * {@inheritdoc}
