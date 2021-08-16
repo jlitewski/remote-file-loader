@@ -7,6 +7,8 @@ interface RemoteFileLoaderInterface
      * Loads the file from the given URI and returns the contents.
      *
      * @param $uri string The URI to load
+     * 
+     * @throws FileLoadException If something happens while loading the URI
      *
      * @return string The binary data
      */
